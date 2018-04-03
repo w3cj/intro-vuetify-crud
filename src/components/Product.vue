@@ -34,7 +34,9 @@ import API from '@/lib/API';
 export default {
   data() {
     return {
-      product: {},
+      product: {
+        id: -1
+      },
     };
   },
   mounted() {
